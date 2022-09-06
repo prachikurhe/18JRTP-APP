@@ -1,0 +1,57 @@
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice
+$ git config --global user.name "Prachi Kurhe"
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice
+$ git config --global user.email "kurheprachi84@gmail.com"
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice
+$ git init
+Initialized empty Git repository in C:/Ashok IT/Git_Practice/.git/
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PrachiGitHub.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (master)
+$ git add  PrachiGitHub.txt
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (master)
+$ git commit m-"First Commit"
+error: pathspec 'm-First Commit' did not match any file(s) known to git
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (master)
+$ git commit  -m"First Commit"
+[master (root-commit) a80056e] First Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 PrachiGitHub.txt
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (master)
+$ git branch -M main
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (main)
+$ ^[[200~git git remote add origin https://github.com/prachikurhe/18JRTP-APP.g
+bash: $'\E[200~git': command not found
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (main)
+$ git remote add origin https://github.com/prachikurhe/18JRTP-APP.git
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/prachikurhe/18JRTP-APP.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (main)
+$
