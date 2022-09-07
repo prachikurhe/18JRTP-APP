@@ -62,3 +62,73 @@ hiiiiii
 =======
 Hello Prachi
 >>>>>>> 2315a4aea3e3a7c332202ed80d9082d3d50124b5
+
+
+
+win10@DESKTOP-861UC7E MINGW64 ~/eclipse-workspace/hii
+$ git clone https://github.com/prachikurhe/InterviewQue.git
+Cloning into 'InterviewQue'...
+remote: Enumerating objects: 187, done.
+remote: Counting objects: 100% (187/187), done.
+remote: Compressing objects: 100% (159/159), done.
+remote: Total 187 (delta 23), reused 187 (delta 23), pack-reused 0
+Receiving objects: 100% (187/187), 85.86 KiB | 4.52 MiB/s, done.
+Resolving deltas: 100% (23/23), done.
+
+win10@DESKTOP-861UC7E MINGW64 ~/eclipse-workspace/hii
+$ cd InterviewQue/
+
+win10@DESKTOP-861UC7E MINGW64 ~/eclipse-workspace/hii/InterviewQue (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+win10@DESKTOP-861UC7E MINGW64 ~/eclipse-workspace/hii/InterviewQue (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    src/a.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/abc.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+win10@DESKTOP-861UC7E MINGW64 ~/eclipse-workspace/hii/InterviewQue (main)
+$ git add --a
+
+win10@DESKTOP-861UC7E MINGW64 ~/eclipse-workspace/hii/InterviewQue (main)
+$ git commit -m"change file name"
+[main 9af5eb9] change file name
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename src/{a.java => abc.java} (100%)
+
+win10@DESKTOP-861UC7E MINGW64 ~/eclipse-workspace/hii/InterviewQue (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+win10@DESKTOP-861UC7E MINGW64 ~/eclipse-workspace/hii/InterviewQue (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/prachikurhe/InterviewQue.git
+   ac38ecb..9af5eb9  main -> main
+
+win10@DESKTOP-861UC7E MINGW64 ~/eclipse-workspace/hii/InterviewQue (main)
+$
