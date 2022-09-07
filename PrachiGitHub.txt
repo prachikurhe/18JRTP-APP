@@ -55,6 +55,10 @@ branch 'main' set up to track 'origin/main'.
 
 win10@DESKTOP-861UC7E MINGW64 /c/Ashok IT/Git_Practice (main)
 $
+<<<<<<< HEAD
 
 Hello Prachi....
 hiiiiii
+=======
+Hello Prachi
+>>>>>>> 2315a4aea3e3a7c332202ed80d9082d3d50124b5
